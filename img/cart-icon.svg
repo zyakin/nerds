@@ -1,0 +1,7 @@
+<svg id="cart-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="cart-icon-2" data-name="cart-icon">
+    <circle id="Oval" cx="1.5" cy="1.5" r="1.5" transform="translate(3 12)" fill="#a6a6a6"/>
+    <circle id="Oval-2" data-name="Oval" cx="1.5" cy="1.5" r="1.5" transform="translate(11 12)" fill="#a6a6a6"/>
+    <path id="Shape" d="M15,2H4.07L3.648,0H0V2H2.031l1.985,9H15V9H9.441L15,6.951Z" fill="#a6a6a6"/>
+  </g>
+</svg>
