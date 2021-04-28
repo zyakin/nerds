@@ -16,3 +16,21 @@
   cursor: pointer;
   padding: 0;
 }
+
+.menu-link {
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+
+.menu-link:hover {
+  color: var(--carnation-color);
+  transition: color 0.3s;
+}
+
+.menu-link:active {
+  color: var(--black-color);
+  opacity: 0.3;
+  transition: color 0.3s;
+}
