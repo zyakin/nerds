@@ -17,20 +17,23 @@
   padding: 0;
 }
 
-.menu-link {
-  font-weight: 500;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: var(--black-color);
+.active-page {
+  border-bottom: 2px solid var(--carnation-color);
+  padding-bottom: 20px;
 }
 
-.menu-link:hover {
+.menu-link[href] {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.menu-link[href]:hover {
   color: var(--carnation-color);
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
-.menu-link:active {
+.menu-link[href]:active {
   color: var(--black-color);
   opacity: 0.3;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
