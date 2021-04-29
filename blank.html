@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Каталог магазина «Nerds»</title>
+  <title>Шаблон</title>
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,26 +15,26 @@
 
     <header>
       <div class="container header__container">
-        <a href="index.html" class="header__logo">
+        <a href="index.html" class="header__logo" aria-label="Logo">
           <img src="img/nerds-logo.svg" width="160px" height="67px" alt="Логотип интернет магазина «Nerds»">
         </a>
         <nav class="header__nav">
           <ul class="header__list">
-            <li class="header__list-item"><a href="blank.html" class="menu-link">Студия</a></li>
-            <li class="header__list-item"><a href="blank.html" class="menu-link">Клиенты</a></li>
-            <li class="header__list-item"><a href="catalog.html" class="menu-link">Магазин</a></li>
-            <li class="header__list-item"><a href="blank.html" class="menu-link">Контакты</a></li>
+            <li class="header__list-item"><a href="studio.html" class="menu-link" aria-label="Studio">Студия</a></li>
+            <li class="header__list-item"><a href="clients.html" class="menu-link" aria-label="Clients">Клиенты</a></li>
+            <li class="header__list-item"><a href="catalog.html" class="menu-link" aria-label="Catalog">Магазин</a></li>
+            <li class="header__list-item"><a href="contacts.html" class="menu-link" aria-label="Contacts">Контакты</a></li>
           </ul>
-          <div class="header__cart active-page">
+          <div class="header__cart">
             <img src="img/cart-icon.svg" width="15" height="15" alt="Корзина">
-            <a class="menu-link" aria-label="Cart">Корзина</a>
+            <a href="cart.html" class="menu-link" aria-label="Cart">Корзина</a>
           </div>
         </nav>
       </div>
     </header>
 
     <main>
-
+      <h1>Шаблон</h1>
     </main>
 
     <footer>
@@ -62,6 +62,7 @@
 
   </div>
 
+  <script src="/libs/jquery-3.6.0.min.js"></script>
   <script src="/libs/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
