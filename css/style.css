@@ -8,4 +8,5 @@
 
 /* components imports */
 @import 'components/_header.css';
+@import 'components/_slider.css';
 @import 'components/_footer.css';

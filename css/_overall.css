@@ -37,3 +37,8 @@
   opacity: 0.3;
   transition: 0.3s;
 }
+
+.top__section {
+  background-color: var(--bg-color);
+  padding-top: 132px;
+}
