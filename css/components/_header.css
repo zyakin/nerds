@@ -1,3 +1,7 @@
+.header {
+  background-color: var(--bg-color);
+}
+
 .header__container {
   font-weight: 500;
   line-height: 30px;

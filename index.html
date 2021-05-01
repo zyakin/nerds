@@ -13,21 +13,29 @@
 <body>
   <div class="site-container">
 
-    <header>
+    <header class="header">
       <div class="container header__container">
-        <a class="header__logo" aria-label="Logo">
+        <a class="header__logo">
           <img src="img/nerds-logo.svg" width="160px" height="67px" alt="Логотип интернет магазина «Nerds»">
         </a>
         <nav class="header__nav">
-          <ul class="header__list">
-            <li class="header__list-item"><a href="studio.html" class="menu-link" aria-label="Studio">Студия</a></li>
-            <li class="header__list-item"><a href="clients.html" class="menu-link" aria-label="Clients">Клиенты</a></li>
-            <li class="header__list-item"><a href="catalog.html" class="menu-link" aria-label="Catalog">Магазин</a></li>
-            <li class="header__list-item"><a href="contacts.html" class="menu-link" aria-label="Contacts">Контакты</a></li>
-          </ul>
+          <menu class="header__list">
+            <li class="header__list-item">
+              <a href="studio.html" class="menu-link">Студия</a>
+            </li>
+            <li class="header__list-item">
+              <a href="clients.html" class="menu-link">Клиенты</a>
+            </li>
+            <li class="header__list-item">
+              <a href="catalog.html" class="menu-link">Магазин</a>
+            </li>
+            <li class="header__list-item">
+              <a href="contacts.html" class="menu-link">Контакты</a>
+            </li>
+          </menu>
           <div class="header__cart">
             <img src="img/cart-icon.svg" width="15" height="15" alt="Корзина">
-            <a href="cart.html" class="menu-link" aria-label="Cart">Корзина</a>
+            <a href="cart.html" class="menu-link">Корзина</a>
           </div>
         </nav>
       </div>
@@ -37,43 +45,45 @@
       <section>
         <h1 hidden>Интернет магазин «Nerds»</h1>
 
-        <ul>
-          <li>
-            <h2>
-              Долго, дорого,<br>
-              скрупулезно.
-            </h2>
-            <p>
-              Математически выверенный дизайн<br>
-              для вашего сайта или мобильного приложения.
-            </p>
-            <a href="blank.html">Узнать больше</a>
-            <img src="img/slide1.png" width="698" height="413" alt="Слайд 1">
-          </li>
-          <li>
-            <h2>
-              Любим математику<br>
-              как никто другой</h2>
-            <p>
-              Никакого креатива, только математические формулы<br>
-              для расчета идеальных пропорций.
-            </p>
-            <a href="blank.html">Узнать больше</a>
-            <img src="img/slide2.png" width="663" height="430" alt="Слайд 3">
-          </li>
-          <li>
-            <h2>
-              Только ночь,<br>
-              только хардкор
-            </h2>
-            <p>
-              Работать днем, как все? Мы против этого.<br>
-              Ближе к полуночи работа только начинается.
-            </p>
-            <a href="blank.html">Узнать больше</a>
-            <img src="img/slide3.png" width="759" height="411" alt="Слайд 2">
-          </li>
-        </ul>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <h2>
+                Долго, дорого,<br>
+                скрупулезно.
+              </h2>
+              <p>
+                Математически выверенный дизайн<br>
+                для вашего сайта или мобильного приложения.
+              </p>
+              <a href="blank.html">Узнать больше</a>
+              <img src="img/slide1.png" width="698" height="413" alt="Слайд 1">
+            </div>
+            <div class="swiper-slide">
+              <h2>
+                Любим математику<br>
+                как никто другой</h2>
+              <p>
+                Никакого креатива, только математические формулы<br>
+                для расчета идеальных пропорций.
+              </p>
+              <a href="blank.html">Узнать больше</a>
+              <img src="img/slide2.png" width="663" height="430" alt="Слайд 3">
+            </div>
+            <div class="swiper-slide">
+              <h2>
+                Только ночь,<br>
+                только хардкор
+              </h2>
+              <p>
+                Работать днем, как все? Мы против этого.<br>
+                Ближе к полуночи работа только начинается.
+              </p>
+              <a href="blank.html">Узнать больше</a>
+              <img src="img/slide3.png" width="759" height="411" alt="Слайд 2">
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
