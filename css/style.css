@@ -109,7 +109,7 @@ img {
 }
 
 .header__logo {
-    height: 67px;
+    line-height: 0;
 }
 
 .header__logo[href] img {
@@ -220,11 +220,11 @@ img {
     transition: color 0.3s;
 }
 
-.slide__descr-image {
+/* .slide__descr-image {
     position: absolute;
     top: 0;
     right: 0;
     width: max-content;
     height: 413px;
     z-index: -1;
-}
+} */
